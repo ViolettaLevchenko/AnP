@@ -1,5 +1,4 @@
 import random
-import os
 errors=0
 k=0
 print("МАТЕМАТИКА ДЛЯ ДЕТЕЙ"+chr(10)+"Решите примеры:")
