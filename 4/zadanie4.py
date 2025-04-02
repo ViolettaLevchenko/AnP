@@ -2,12 +2,12 @@ print("Выберите два основных цвета (красный, си
 first=""
 second=""
 while first=="":
-    first = input("Первый цвет: ")
+    first = input("Первый цвет: ").lower()
     if not(first in "красный синий желтый"):
         print("Выберите ОСНОВНОЙ цвет (красный, синий, желтый)")
         first=""
 while second=="":
-    second = input("Второй цвет: ")
+    second = input("Второй цвет: ").lower()
     if not(second in "красный синий желтый"):
         print("Выберите ОСНОВНОЙ цвет (красный, синий, желтый)")
         second=""
